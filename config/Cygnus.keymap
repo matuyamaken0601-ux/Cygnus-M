@@ -72,10 +72,10 @@
 
         default_layer {
             bindings = <
-&lt 6 ESC  &kp Q     &kp W     &kp E   &kp R           &kp T                                      &kp Y        &kp U  &kp I      &kp O    &mkp MB1         &kp BSPC
-&kp TAB    &kp A     &kp S     &kp D   &kp F           &kp G        &mkp MB3           &kp END    &kp H        &kp J  &kp K      &lt 5 L  &lt 4 RS(COLON)  &kp ENTER
-&kp LSHFT  &kp Z     &kp X     &kp C   &kp V           &kp B        &kp LC(V)          &imgtog    &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH         &kp UP_ARROW
-&kp LCTRL  &kp LGUI  &kp LALT  &kp F2  &kp LEFT_ARROW  &lt 2 LC(C)  &kp RIGHT_ARROW    &kp SPACE  &lt 1 GRAVE                             &kp DEL          &kp DOWN_ARROW
+&lt 6 ESC  &kp Q     &kp W     &kp E     &kp R           &kp T                                      &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A     &kp S     &kp D     &kp F           &kp G        &mkp MB3           &kp END    &kp H        &kp J  &kp K      &lt 5 L  &lt 4 F2  &kp ENTER
+&kp LSHFT  &kp Z     &kp X     &kp C     &kp V           &kp B        &kp LC(V)          &mkp MB1   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp UP_ARROW
+&kp LCTRL  &kp LGUI  &kp LALT  &mkp MB2  &kp LEFT_ARROW  &lt 2 LC(C)  &kp RIGHT_ARROW    &kp SPACE  &lt 1 GRAVE                             &kp DEL   &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
