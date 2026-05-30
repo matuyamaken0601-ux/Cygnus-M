@@ -72,10 +72,10 @@
 
         default_layer {
             bindings = <
-&lt 6 ESC  &kp Q     &kp W     &kp E     &kp R           &kp T                                      &kp Y        &kp U  &kp I      &kp O    &mkp MB1              &kp BSPC
-&kp TAB    &kp A     &kp S     &kp D     &kp F           &kp G        &mkp MB3           &kp END    &kp H        &kp J  &kp K      &lt 5 L  &lt 4 P               &kp ENTER
-&kp LSHFT  &kp Z     &kp X     &kp C     &kp V           &kp B        &kp LC(V)          &lt 3 F2   &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(GREATER_THAN)  &kp UP_ARROW
-&kp LCTRL  &kp LGUI  &kp LALT  &mkp MB2  &kp LEFT_ARROW  &lt 2 LC(C)  &kp RIGHT_ARROW    &kp SPACE  &lt 1 GRAVE                             &kp DEL               &kp DOWN_ARROW
+&lt 6 ESC  &kp Q     &kp W     &kp E     &kp R           &kp T                                           &kp Y        &kp U  &kp I      &kp O    &mkp MB1              &kp BSPC
+&kp TAB    &kp A     &kp S     &kp D     &kp F           &kp G             &mkp MB3           &kp END    &kp H        &kp J  &kp K      &lt 5 L  &lt 4 P               &kp ENTER
+&kp LSHFT  &kp Z     &kp X     &kp C     &kp V           &kp B             &kp UP_ARROW       &lt 3 F2   &kp N        &kp M  &kp COMMA  &kp DOT  &kp RS(GREATER_THAN)  &kp LC(V)
+&kp LCTRL  &kp LGUI  &kp LALT  &mkp MB2  &kp LEFT_ARROW  &lt 2 DOWN_ARROW  &kp RIGHT_ARROW    &kp SPACE  &lt 1 GRAVE                             &kp DEL               &kp LC(C)
             >;
 
             sensor-bindings = <&ROTATE SCRL_DOWN SCRL_UP>;
@@ -95,7 +95,7 @@
 &trans  &kp MINUS                   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp COLON                                                      &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK     &kp LC(LA(KP_NUMBER_0))    &kp UNDERSCORE     &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT            &trans
 &trans  &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_0  &kp EQUAL                  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH          &trans
-&trans  &trans                      &kp RS(COLON)    &kp LS(SEMI)     &trans           &trans           &trans                     &trans             &trans                                                                     &kp PIPE               &trans
+&trans  &trans                      &kp RS(COLON)    &kp GRAVE        &trans           &trans           &trans                     &trans             &trans                                                                     &kp PIPE               &trans
             >;
         };
 
